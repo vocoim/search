@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Search Google</title>
+    <link rel="stylesheet" href="advanced%20search.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<header>
+    <div class="logo">
+        Google
+    </div>
+    <div class="buttons">
+        <a href="picture%20search.html"">
+        Picture search
+        </a>
+        <a href="search.html">
+            Search
+        </a>
+    </div>
+</header>
+<main>
+    <p>Расширенный поиск</p>
+    <div class="search-form">
+        <div class="value-list">
+            <div class="head_item">Найти страницы</div>
+            <div class="list_item">со словами:</div>
+            <div class="list_item">со словосочетаниями:</div>
+            <div class="list_item">с любыми из этих слов:</div>
+            <div class="list_item">без слов:</div>
+        </div>
+        <div>
+            <form class="search_area" action="https://www.google.com/search" method="get">
+                <div class="search_item"><input type="text" name="as_q"></div>
+
+                <div class="search_item"><input type="text" name="as_epq"></div>
+
+                <div class="search_item"><input type="text" name="as_oq"></div>
+
+                <div class="search_item"><input type="text" name="as_eq"></div>
+                <input type="submit" class="submit" value="Найти">
+            </form>
+        </div>
+        <div class="cue_card">
+            <div class="head_item">Как это работает в обычном поиске</div>
+            <div class="list_item">Введите ключевые слова: <span>Иван Федорович Крузенштерн</span></div>
+            <div class="list_item">Заключите словосочетание в кавычки: <span>"книга Иван Крузенштерн"</span></div>
+            <div class="list_item">Вставьте оператор OR между словами: <span>человек OR пароход</span></div>
+            <div class="list_item">Поставьте знак минуса перед словами: <span>-пароход, -"книга о пароходе"</span></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

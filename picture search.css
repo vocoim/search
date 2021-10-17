@@ -12,10 +12,13 @@ a:link {
 }
 
 a:hover {
-    background-color: #88878c;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
-    box-shadow: 1px 1px 1px #808080;
+    box-shadow: 1px 1px 1px #c3c8cb;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
 }
 
 .search-form {
@@ -63,3 +66,4 @@ input {
     background-color: #88878c;
     color: #ffffff;
 }
+

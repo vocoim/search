@@ -1,0 +1,119 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgba(23, 26, 28, 0.93);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:link {
+    padding: 10px;
+    text-decoration: none;
+    color: #808080;
+    font-weight: 400;
+    font-size: 15px;
+    float: right;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #c3c8cb;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    color: #ffffff;
+}
+
+p {
+    color: #ed7694;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 30px;
+    border-bottom: 1px solid #88878c;
+}
+
+.search-form {
+    display: flex;
+    margin-left: 50px;
+}
+
+.list_item {
+    color: #c2c2c2;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.head_item {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+.search_area:first-child {
+    margin-top: 41px;
+}
+
+.search_item {
+    margin: 13px;
+    border: 1px solid #88878c;
+}
+
+input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: #c2c2c2;
+    width: 500px;
+    outline: none;
+}
+
+input:focus {
+    border: 0.5px solid #90b7e3;
+}
+
+.submit {
+    color: #000000;
+    background-color: #90b7e3;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+
+.submit:hover {
+    background-color: rgb(201, 229, 255);
+}
+
+span {
+    color: #ffffff;
+}
+
+.cue_card .head_item {
+    font-weight: 700;
+}
