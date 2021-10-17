@@ -5,20 +5,20 @@
 a:link {
     padding: 10px;
     text-decoration: none;
-    color: #808080;
+    color: rgb(6, 6, 6);
     font-weight: 400;
     font-size: 15px;
     float: right;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
     border-radius: 5px;
-    box-shadow: 1px 1px 1px #c3c8cb;
+    box-shadow: 1px 1px 1px #969b9e;
 }
 
 a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
 }
 
 .search-form {
@@ -53,7 +53,7 @@ input {
     width: 500px;
     margin-right: 10px;
     box-sizing: border-box;
-    box-shadow: 0px 1px 8px -2px #000000;
+    box-shadow: 0 1px 8px -2px #000000;
     border-radius: 20px;
     border: none;
     padding: 15px;
